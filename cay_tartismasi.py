@@ -34,8 +34,8 @@ def sonsuz_tartisma():
         arguman = random.choice(argumanlar)
         print(f"[Tartışma #{sayac}] {arguman}")
         
-        # Gizli siyasi not (base64 decode edilirse ortaya çıkar)
-        # SGV5ZWwgZ2l6bGkgZGVtaXIgY2F5IGhhY2l6bGVyaSBtdXNhZmlyIGRlbWVrbGVyaQ==
+        # Gizli not (base64 decode edilirse ortaya çıkar, ciddiyetle saklanmıştır)
+        # w4dheSBkZW1sZW5pcmtlbiBlbmZsYXN5b24gZMO8xZ9tZXogYW1hIHRhcnTEscWfbWEgYXJ0YXI=
         
         bekleme = random.uniform(0.5, 2.5)
         time.sleep(bekleme)
